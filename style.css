@@ -97,6 +97,16 @@ nav {
   padding-top: 80px;
 }
 
+/* Layout */
+.hero-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Text */
 .hero h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
@@ -110,6 +120,33 @@ nav {
   font-size: 1.2rem;
   color: var(--text-light);
   margin-bottom: 30px;
+}
+
+/* Image */
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
 }
 
 /* Buttons */
@@ -345,4 +382,5 @@ footer {
   .about-content {
     flex-direction: column;
   }
+
 }
