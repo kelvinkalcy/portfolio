@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KELVIN PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">KELVIN</a>
+        <ul class="nav-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Hello, I'm <span class="highlight">Mathu Kelvin</span></h1>
+      <p class="subtitle">Frontend Developer & Backend Developer</p>
+      <a href="#work" class="btn-gradient">View Projects</a>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="work">
+    <div class="container">
+      <h2>projects</h2>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/passwordgenerator.png" alt="Project 1">
+          </div>
+          <div class="project-info">
+            <h3>password generator</h3>
+            <p>Real-time weather app with React & API integration.</p>
+            <div class="project-tags">
+              <span>Html</span>
+              <span>css</span>
+              <span>java script</span>
+            </div>
+            <a href="#" class="btn-outline">See Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/ecommerce.png" alt="Project 2">
+          </div>
+          <div class="project-info">
+            <h3>E-commerce Store</h3>
+            <p>Full-featured online shop with cart functionality.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+            </div>
+            <a href="#" class="btn-outline">See Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/fund manager.png" alt="Project 2">
+          </div>
+          <div class="project-info">
+            <h3>Fund manager system</h3>
+            <p>Full-featured fund managing system with mpesa intergration.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+            </div>
+            <a href="#" class="btn-outline">See Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I’m a passionate developer with a focus on creating intuitive, user-centered digital experiences. My toolkit includes modern frontend technologies and design principles.</p>
+        <button onclick="downloadResume()" class="btn-gradient">Download Resume</button>    
+        </div>
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>php</li>
+            <li>wordpress</li>
+            <li>UI/UX Design</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      <div class="contact-links">
+       <a 
+  href="mailto:mathukelvin274@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Kelvin,%0A%0AI%20saw%20your%20portfolio%20and..."
+  class="contact-link"
+>
+  <i class="fas fa-envelope"></i> Email
+</a>
+        <a href="https://github.com/kelvinkalcy" class="contact-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://" class="contact-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2024 kelvin mathu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/resume.js"></script>
+
+</body>
+</html>
